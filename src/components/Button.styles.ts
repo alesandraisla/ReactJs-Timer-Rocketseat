@@ -26,6 +26,4 @@ export const ButtonContainer = styled.button<ButtonContainerProps>`
   /* ${props => {
     return css`background-color: ${buttonVariants[props.variant]}`
   }} */
-
-
 `
