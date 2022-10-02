@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { ThemeProvider } from 'styled-components';
 import { Button } from './components/Button';
+import { GlobalStyle } from './styles/globa';
 import { defaultTheme } from './styles/themes/default';
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
       <Button variant='danger' />
       <Button variant='success'/>
       <Button variant='primary' />
+      <Button />
+
+      <GlobalStyle />
     </ThemeProvider>
   )
 }
